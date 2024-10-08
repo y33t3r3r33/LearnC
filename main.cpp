@@ -35,7 +35,7 @@ int datatypes() {
     int y = 36; //can hold both positive and negative values
 }
 
-int main() {
+int inputoutput() {
 
     int testint = 5;
     float number1 = 13.5;
