@@ -84,3 +84,27 @@ int inputoutput() {
     printf("You entered %d and %f", a, b);
     return 0;
 }
+
+int main() {
+    int a = 9,b = 4, c;
+
+    c = a+b;
+    printf("a+b = %d \n",c);
+    c = a-b;
+    printf("a-b = %d \n",c);
+    c = a*b;
+    printf("a*b = %d \n",c);
+    c = a/b;
+    printf("a/b = %d \n",c);
+    c = a%b;
+    int d = 10, e = 100;
+    float f = 10.5, g = 100.5;
+
+    printf("Remainder when a divided by b = %d \n",c);
+    printf("++d = %d \n",++d);
+    printf("--e = %d \n",--e);
+    printf("++f = %f \n",++f);
+    printf("--g = %f \n",--g);
+
+    return 0;
+}
